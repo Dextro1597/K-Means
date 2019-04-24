@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('/home/dextro/Desktop/ML_FINAL/Codes/ML/Kmeans/DATAset.csv')
+dataset=pd.read_csv('/home/dextro/Desktop/ML_FINAL/Codes/ML/Kmeans/DATAset.csv') #give path of csv
 X=dataset.iloc[:,:].values
 
 #for plotting the points
